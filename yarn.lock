@@ -2748,6 +2748,13 @@
     levelup "^5.1.1"
     msgpack-lite "^0.1.26"
 
+"@railgun-community/ffjavascript@0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@railgun-community/ffjavascript/-/ffjavascript-0.1.0.tgz#e4f37f81a25972225744907efd3c405383b5262c"
+  integrity sha512-wyFr5da1alJzahCKtf8ZF6qegWsIgi+OdSvRBlqXtRyJTY/deRCYrrYJdKNQwivqwR9SHlcqtUm18Ba+oJjTmg==
+  dependencies:
+    big-integer "^1.6.48"
+
 "@railgun-community/shared-models@5.7.15":
   version "5.7.15"
   resolved "https://registry.yarnpkg.com/@railgun-community/shared-models/-/shared-models-5.7.15.tgz#23a1d8843df44c7f9e028b838b41ecf431d05473"
@@ -5113,13 +5120,13 @@ cipher-base@^1.0.0, cipher-base@^1.0.1, cipher-base@^1.0.3:
     inherits "^2.0.1"
     safe-buffer "^5.0.1"
 
-circomlibjs@hsg88/circomlibjs#ffjavascrip.0.1.0:
+"circomlibjs@git+https://github.com/railgun-community/circomlibjs.git", circomlibjs@hsg88/circomlibjs#ffjavascrip.0.1.0:
   version "0.0.8"
-  resolved "https://codeload.github.com/hsg88/circomlibjs/tar.gz/fee5b3c479caa3db1e34cbfdedad763d74277844"
+  resolved "git+https://github.com/railgun-community/circomlibjs.git#242968fbb89f4d8007a73230fb2989ac8feb27e5"
   dependencies:
+    "@railgun-community/ffjavascript" "0.1.0"
     blake-hash "^2.0.0"
     blake2b "^2.1.3"
-    ffjavascript hsg88/ffjavascript#fix-utils-native
     web3 "^1.6.0"
     web3-utils "^1.6.0"
 
@@ -7258,12 +7265,6 @@ fb-watchman@^2.0.0:
   integrity sha512-p5161BqbuCaSnB8jIbzQHOlpgsPmK5rJVDfDKO91Axs5NC1uu3HRQm6wt9cd9/+GtQQIO53JdGXXoyDpTAsgYA==
   dependencies:
     bser "2.1.1"
-
-ffjavascript@hsg88/ffjavascript#fix-utils-native:
-  version "0.1.0"
-  resolved "https://codeload.github.com/hsg88/ffjavascript/tar.gz/e586e4e36f323acabe1805b01ea10070c413c6ec"
-  dependencies:
-    big-integer "^1.6.48"
 
 file-entry-cache@^6.0.1:
   version "6.0.1"

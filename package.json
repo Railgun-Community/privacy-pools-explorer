@@ -102,5 +102,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "resolutions": {
+    "circomlibjs": "git+https://github.com/railgun-community/circomlibjs.git"
   }
 }
