@@ -1,1 +1,1 @@
-export const AvailableNodes = ['https://poi-lb.us.proxy.railwayapi.xyz'];
+export const AvailableNodes = ['https://poi.us.proxy.railwayapi.xyz'];

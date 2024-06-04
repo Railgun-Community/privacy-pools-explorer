@@ -67,11 +67,12 @@ export class POINodeRequest {
     const chain = NETWORK_CONFIG[networkName].chain;
     const route = `pois-per-list/${chain.type}/${chain.id}`;
     const url = POINodeRequest.getNodeRouteURL(nodeURL, route);
-
     const poisPerList = await POINodeRequest.postRequest<
       GetPOIsPerListParams,
       POIsPerListMap
     >(url, {
+      chainID: chain.id.toString(),
+      chainType: chain.type.toString(),
       txidVersion,
       listKeys,
       blindedCommitmentDatas,
