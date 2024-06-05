@@ -2720,27 +2720,38 @@
   resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.11.8.tgz#6b79032e760a0899cd4204710beede972a3a185f"
   integrity sha512-P1st0aksCrn9sGZhp8GMYwBnQsbvAWsZAX44oXNNvLHGqAOcoVxmjZiohstwQ7SqKnbR47akdNi+uleWD8+g6A==
 
+"@railgun-community/circomlibjs@0.0.8":
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/@railgun-community/circomlibjs/-/circomlibjs-0.0.8.tgz#e3d6c43629bf3428726e44af7845e0cb982bb38e"
+  integrity sha512-ZqDUxS1DkxoZ7Nz6n1awTBjFaunDR64WQSwj2XtGOjx3ZQVpaVoSaIxbp0egsZPzyr70uRm7PQ76ZDeUwLyNkg==
+  dependencies:
+    "@railgun-community/ffjavascript" "0.1.0"
+    blake-hash "^2.0.0"
+    blake2b "^2.1.3"
+    web3 "^1.6.0"
+    web3-utils "^1.6.0"
+
 "@railgun-community/curve25519-scalarmult-wasm@0.1.5":
   version "0.1.5"
   resolved "https://registry.yarnpkg.com/@railgun-community/curve25519-scalarmult-wasm/-/curve25519-scalarmult-wasm-0.1.5.tgz#edb5e40a8f1fdb7f7e0de1d04e8badabe41cb2a8"
   integrity sha512-Cur8uM/IdNW3WzUwdPloDG1CF0rpSBDWq2yGXJMZ7IMeBGdc4Jj0h9tnNMFRZ35ZuCVVbZ3yClmqSa4PsbpdGQ==
 
-"@railgun-community/engine@6.2.21":
-  version "6.2.21"
-  resolved "https://registry.yarnpkg.com/@railgun-community/engine/-/engine-6.2.21.tgz#72fe277697ff29202a32f8ea582be0c5b4cdfa3e"
-  integrity sha512-3oRMyHwpq/L89jgMPD8gNR0eghjuz5icnDhsPWEdbBinztsRtrc4cbrrSJ6pMcN4dr7BKRsC73INaAzak/ya0A==
+"@railgun-community/engine@9.0.1":
+  version "9.0.1"
+  resolved "https://registry.yarnpkg.com/@railgun-community/engine/-/engine-9.0.1.tgz#29b7eb50a68e7a1ee0764461620b157b2d9dcfac"
+  integrity sha512-/K1ndy3xdi0mSXlHoxckEcl7GfgVu/SJ+qmMCaCQlIlmFA+zkAIFURhS4oG1+9O9RQjIexb0iG0bsta2l5nOxQ==
   dependencies:
     "@noble/ciphers" "^0.4.0"
     "@noble/ed25519" "^1.7.1"
     "@noble/hashes" "^1.3.2"
+    "@railgun-community/circomlibjs" "0.0.8"
     "@railgun-community/curve25519-scalarmult-wasm" "0.1.5"
+    "@railgun-community/poseidon-hash-wasm" "1.0.1"
     "@scure/base" "^1.1.1"
     abstract-leveldown "^7.2.0"
-    bn.js "^5.2.1"
     browserify-aes "^1.2.0"
     buffer-xor "^2.0.2"
     chai-as-promised "^7.1.1"
-    circomlibjs hsg88/circomlibjs#ffjavascrip.0.1.0
     encoding-down "^7.1.0"
     ethereum-cryptography "^2.0.0"
     ethers "github:Railgun-Community/ethers.js#v6.7.10"
@@ -2755,20 +2766,20 @@
   dependencies:
     big-integer "^1.6.48"
 
-"@railgun-community/shared-models@5.7.15":
-  version "5.7.15"
-  resolved "https://registry.yarnpkg.com/@railgun-community/shared-models/-/shared-models-5.7.15.tgz#23a1d8843df44c7f9e028b838b41ecf431d05473"
-  integrity sha512-p0EJAOmAe3ldxw/7WJF5/X+vZNDElGTGRhNv3U0gJ4V4IgMnV0kT/j8eaDL3ET7mRdPlL73wxcX/liCy3Ckd3Q==
+"@railgun-community/poseidon-hash-wasm@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@railgun-community/poseidon-hash-wasm/-/poseidon-hash-wasm-1.0.1.tgz#bfd3b3f915391a59486d8c9d632069f029e152d6"
+  integrity sha512-zDAbMu095ZjMqsKIoyOnuKR4Zofnqqx4eTCtnA6qYglnexX5cadxItvJa3ozhDDTmFkDGAidDssQ7Pzl3wwLDA==
 
-"@railgun-community/shared-models@6.3.0":
-  version "6.3.0"
-  resolved "https://registry.yarnpkg.com/@railgun-community/shared-models/-/shared-models-6.3.0.tgz#c3d87091b9afc880f369b30f63c7df6f0f47829b"
-  integrity sha512-ZesDE7DnLUmjn+2M6UisXPUumImmqWHi854+7q3EkYV5R/Gjsth4yeca1OBNSjCmANpg7nZvDjctkodWFi0xBw==
+"@railgun-community/shared-models@7.0.7":
+  version "7.0.7"
+  resolved "https://registry.yarnpkg.com/@railgun-community/shared-models/-/shared-models-7.0.7.tgz#c102b5110499cbef671d4719a2d734df3b2498cc"
+  integrity sha512-p2G85Y83dqquL/5DKi6Xfu62QlJbIN3nfO3Sc0NS0HIQDz50+R1HVo5y45yB2F1+LaPCJi93XsQjZVoRI8qffg==
 
-"@railgun-community/wallet@6.4.10":
-  version "6.4.10"
-  resolved "https://registry.yarnpkg.com/@railgun-community/wallet/-/wallet-6.4.10.tgz#6fa66f5157d0647c30d1fa81d65105bd38c51a13"
-  integrity sha512-FtVdKi27eosHxCF/ny0qtRRI8m6iJUajYKDRtcXc8eRvl+ZUdNo9wsM1ZZGGO5vzXbqI1KncMfdWCyB/21tbbw==
+"@railgun-community/wallet@10.0.1":
+  version "10.0.1"
+  resolved "https://registry.yarnpkg.com/@railgun-community/wallet/-/wallet-10.0.1.tgz#0a06692be80825d9f78f7fc11884f17b7505b334"
+  integrity sha512-J/vagvqWSmmzYfedzr8mAXPbkVwDZobZ21pFH2+cVdFC0smST8h7mCx4QTFmRu40VM3KyDKn7BTW0Tuqcx7zfw==
   dependencies:
     "@graphql-mesh/cache-localforage" "^0.7.20"
     "@graphql-mesh/cross-helpers" "^0.3.4"
@@ -2781,8 +2792,8 @@
     "@graphql-mesh/types" "^0.91.14"
     "@graphql-mesh/utils" "^0.43.22"
     "@noble/ed25519" "^1.7.1"
-    "@railgun-community/engine" "6.2.21"
-    "@railgun-community/shared-models" "6.3.0"
+    "@railgun-community/engine" "9.0.1"
+    "@railgun-community/shared-models" "7.0.7"
     "@whatwg-node/fetch" "^0.8.4"
     assert "2.0.0"
     axios "0.27.2"
@@ -5119,16 +5130,6 @@ cipher-base@^1.0.0, cipher-base@^1.0.1, cipher-base@^1.0.3:
   dependencies:
     inherits "^2.0.1"
     safe-buffer "^5.0.1"
-
-"circomlibjs@git+https://github.com/railgun-community/circomlibjs.git", circomlibjs@hsg88/circomlibjs#ffjavascrip.0.1.0:
-  version "0.0.8"
-  resolved "git+https://github.com/railgun-community/circomlibjs.git#242968fbb89f4d8007a73230fb2989ac8feb27e5"
-  dependencies:
-    "@railgun-community/ffjavascript" "0.1.0"
-    blake-hash "^2.0.0"
-    blake2b "^2.1.3"
-    web3 "^1.6.0"
-    web3-utils "^1.6.0"
 
 cjs-module-lexer@^1.0.0:
   version "1.2.3"
