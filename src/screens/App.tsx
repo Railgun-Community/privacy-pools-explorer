@@ -338,7 +338,7 @@ export const App: React.FC<{ initialQuery: Query | undefined }> = ({
   return (
     <div className="flex flex-col space-y-4 max-w-screen-lg w-full  p-2 md:p-16">
       <div className="text-black text-2xl font-semibold mb-0.5">
-        Railgun Privacy Pools Explorer
+        RAILGUN Private Proofs of Innocence Explorer
       </div>
       <div className="text-black text-base font-normal pb-9 ">
         Enter a transaction number to check the Privacy Pool status of RAILGUN

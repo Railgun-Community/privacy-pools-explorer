@@ -1,4 +1,4 @@
-# Railgun Privacy Pools Explorer
+# RAILGUN Private Proofs of Innocence Explorer
 
 ## DEPLOYING
 
