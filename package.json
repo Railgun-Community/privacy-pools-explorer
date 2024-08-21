@@ -18,9 +18,9 @@
     "postinstall": "yarn lint"
   },
   "dependencies": {
-    "@railgun-community/shared-models": "7.0.7",
-    "@railgun-community/wallet": "10.0.1",
-    "axios": "0.27.2",
+    "@railgun-community/shared-models": "7.4.3",
+    "@railgun-community/wallet": "10.2.3",
+    "axios": "1.7.2",
     "browserify-zlib": "^0.2.0",
     "classnames": "^2.3.2",
     "crypto-browserify": "^3.12.0",

@@ -25,10 +25,10 @@ const networkDropdownNames = {
   [NetworkName.EthereumGoerli_DEPRECATED]: 'unimplemented',
   [NetworkName.EthereumSepolia]: 'Sepolia',
   [NetworkName.Ethereum]: 'Ethereum',
-  [NetworkName.BNBChain]: 'unimplemented',
-  [NetworkName.Polygon]: 'unimplemented',
+  [NetworkName.BNBChain]: 'BNB Chain',
+  [NetworkName.Polygon]: 'Polygon',
   [NetworkName.PolygonAmoy]: 'unimplemented',
-  [NetworkName.Arbitrum]: 'unimplemented',
+  [NetworkName.Arbitrum]: 'Arbitrum',
   [NetworkName.EthereumRopsten_DEPRECATED]: 'unimplemented',
   [NetworkName.PolygonMumbai_DEPRECATED]: 'unimplemented',
   [NetworkName.ArbitrumGoerli_DEPRECATED]: 'unimplemented',
@@ -43,7 +43,7 @@ export const Dropdown: React.FC<DropdownProps> = ({
   const [selectedNetwork, setSelectedNetwork] = useState<NetworkName>(
     initialNetwork || NetworkName.Ethereum,
   );
-  const networks = [NetworkName.Ethereum, NetworkName.EthereumSepolia];
+  const networks = [NetworkName.Ethereum, NetworkName.EthereumSepolia, NetworkName.Arbitrum, NetworkName.BNBChain, NetworkName.Polygon];
   const dropdownRef = useRef<HTMLDivElement>(null); // Create a ref for the dropdown
 
   useEffect(() => {
