@@ -65,7 +65,7 @@ export class POINodeRequest {
     blindedCommitmentDatas: BlindedCommitmentData[],
   ): Promise<POIsPerListMap> => {
     const chain = NETWORK_CONFIG[networkName].chain;
-    const route = `pois-per-list/${chain.type}/${chain.id}`;
+    const route = `pois-per-list`;
     const url = POINodeRequest.getNodeRouteURL(nodeURL, route);
     const poisPerList = await POINodeRequest.postRequest<
       GetPOIsPerListParams,
